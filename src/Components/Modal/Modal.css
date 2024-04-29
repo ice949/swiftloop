@@ -1,0 +1,70 @@
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-body p {
+    max-width: 350px;
+    text-align: center;
+}
+
+.signup-with-g {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.google-icon {
+    font-size: 35px;
+}
+
+.signup-with-g span {
+    display: inline;
+    width: 100%;
+}
+
+.signup-with-g hr {
+    width: 30%;
+}
+
+.invite-team {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.btn {
+    padding: 20px;
+    background-color: #2F80ED;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .ReactModal__Content--after-open {
+        width: 70% !important;
+        height: 70% !important;
+        inset: 15% !important;
+    }
+}

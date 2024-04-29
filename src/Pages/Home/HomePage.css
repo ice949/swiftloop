@@ -1,0 +1,85 @@
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1F2025;
+    background-size: cover;
+    padding: 20px 7%;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.card {
+    position: fixed;
+    width: 90%;
+    /* max-width: 400px; */
+    height: 90%;
+    background-color: #1F2025;
+    border-radius: 10px;
+    inset: 5% !important;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    /* justify-content: space-between; */
+    padding:  0 10%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 14px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #1F2025;
+    color: #fff;
+}
+
+.btn2 {
+    padding: 10px;
+    background-color: #2F80ED;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #f84008;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 60%;
+        height: 80%;
+        inset: 10% 20% !important;
+    }
+    
+}

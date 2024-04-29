@@ -1,0 +1,178 @@
+.AddMain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 28%;
+  z-index: 5;
+  /* margin-top: 206px; */
+  border: 0.6px solid whitesmoke;
+}
+@media (max-width: 991px) {
+  .AddMain {
+    width: 100%;
+    margin: 20px;
+  }
+}
+.content {
+  background-color: #272531;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+}
+@media (max-width: 991px) {
+  .content {
+    max-width: 100%;
+  }
+}
+.close-x {
+  border-radius: 10px 0px 0px 10px;
+  background-color: #272531;
+  display: flex;
+  flex-direction: column;
+  padding: 42px 0;
+}
+
+.close {
+  display: inline-block;
+  text-align: right;
+}
+.close:hover {
+  cursor: pointer;
+}
+.close-now {
+  padding: 3px 6px;
+  background-color: rgb(129, 129, 129);
+  border-radius: 3px;
+}
+.close-now:hover {
+  background-color: #205BF1;
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 991px) {
+  .close-x {
+    max-width: 100%;
+  }
+}
+
+.heads {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+.heads .main-head {
+  color: whitesmoke;
+}
+
+.heads > small {
+  color: #a2a2a2;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+.form-content .taskname {
+  display: flex;
+  flex-direction: column;
+}
+.lableName {
+  display: block;
+  margin-bottom: 8px;
+}
+label {
+  color: whitesmoke;
+}
+input {
+  background-color: #272531;
+  border: 1px #b7b7b7 solid;
+  border-radius: 5px;
+  color: #fff8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.taskname .name-input {
+  padding-left: 5px;
+  width: 400px;
+  margin-top: 12px;
+}
+.timing, .task-assign {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.date {
+  margin-right: 5px;
+}
+.date-input {
+  width: 170px;
+}
+.start-input, .end-input {
+  width: 100px;
+}
+.date-input, .start-input, .end-input {
+  margin-top: 12px;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+.prior, .Assign {
+  display: flex;
+  flex-direction: column;
+}
+.selection {
+  background-color: #272531;
+  border: 1px #b7b7b7 solid;
+  border-radius: 5px;
+  color: #fff8;
+  width: 185px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 25px;
+  margin-top: 12px;
+}
+
+.assin-input {
+  width: 185px;
+  margin-top: 12px;
+  padding-left: 5px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.save-btn {
+  margin-bottom: 20px;
+  padding: 10px 36px;
+  background-color: #205BF1;
+}
+.save-btn:hover {
+  color: #0030a8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  padding: 10px 30px;
+  background-color: #272531;
+}
+.cancel-btn:hover {
+  background-color: #fff;
+  color: #272531;
+  cursor: pointer;
+}
+.cancel-btn, .save-btn {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+.Subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Subscribe input {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: #ffffff;
+    width: 70%;
+}
+
+.Subscribe button {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #205BF1;
+    color: #ffffff;
+    cursor: pointer;
+}
